@@ -10,6 +10,13 @@
 		8FDC451E1C6C956000DAC36B /* SilverbackHex.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FDC451D1C6C956000DAC36B /* SilverbackHex.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8FDC45251C6C956000DAC36B /* SilverbackHex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FDC451A1C6C956000DAC36B /* SilverbackHex.framework */; };
 		8FDC452A1C6C956000DAC36B /* SilverbackHexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDC45291C6C956000DAC36B /* SilverbackHexTests.swift */; };
+		8FDC45391C6C959F00DAC36B /* HexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDC45351C6C959F00DAC36B /* HexView.swift */; };
+		8FDC453A1C6C959F00DAC36B /* HexCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDC45361C6C959F00DAC36B /* HexCollectionViewCell.swift */; };
+		8FDC453B1C6C959F00DAC36B /* HexCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDC45371C6C959F00DAC36B /* HexCollectionViewFlowLayout.swift */; };
+		8FDC453C1C6C959F00DAC36B /* HexCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDC45381C6C959F00DAC36B /* HexCollectionViewLayout.swift */; };
+		8FDC453E1C6C963500DAC36B /* UIBezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDC453D1C6C963500DAC36B /* UIBezierPath.swift */; };
+		8FDC45401C6CA0D200DAC36B /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 8FDC453F1C6CA0D200DAC36B /* Cartfile */; };
+		8FDC45671C6CA48600DAC36B /* Silverback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FDC45661C6CA48600DAC36B /* Silverback.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +36,13 @@
 		8FDC45241C6C956000DAC36B /* SilverbackHexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SilverbackHexTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FDC45291C6C956000DAC36B /* SilverbackHexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilverbackHexTests.swift; sourceTree = "<group>"; };
 		8FDC452B1C6C956000DAC36B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FDC45351C6C959F00DAC36B /* HexView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexView.swift; sourceTree = "<group>"; };
+		8FDC45361C6C959F00DAC36B /* HexCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexCollectionViewCell.swift; sourceTree = "<group>"; };
+		8FDC45371C6C959F00DAC36B /* HexCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		8FDC45381C6C959F00DAC36B /* HexCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexCollectionViewLayout.swift; sourceTree = "<group>"; };
+		8FDC453D1C6C963500DAC36B /* UIBezierPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBezierPath.swift; sourceTree = "<group>"; };
+		8FDC453F1C6CA0D200DAC36B /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		8FDC45661C6CA48600DAC36B /* Silverback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Silverback.framework; path = Carthage/Build/iOS/Silverback.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FDC45671C6CA48600DAC36B /* Silverback.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,7 +68,14 @@
 		8FDC45101C6C956000DAC36B = {
 			isa = PBXGroup;
 			children = (
+				8FDC45661C6CA48600DAC36B /* Silverback.framework */,
+				8FDC453F1C6CA0D200DAC36B /* Cartfile */,
 				8FDC451C1C6C956000DAC36B /* SilverbackHex */,
+				8FDC45351C6C959F00DAC36B /* HexView.swift */,
+				8FDC45361C6C959F00DAC36B /* HexCollectionViewCell.swift */,
+				8FDC45371C6C959F00DAC36B /* HexCollectionViewFlowLayout.swift */,
+				8FDC45381C6C959F00DAC36B /* HexCollectionViewLayout.swift */,
+				8FDC453D1C6C963500DAC36B /* UIBezierPath.swift */,
 				8FDC45281C6C956000DAC36B /* SilverbackHexTests */,
 				8FDC451B1C6C956000DAC36B /* Products */,
 			);
@@ -71,8 +93,7 @@
 		8FDC451C1C6C956000DAC36B /* SilverbackHex */ = {
 			isa = PBXGroup;
 			children = (
-				8FDC451D1C6C956000DAC36B /* SilverbackHex.h */,
-				8FDC451F1C6C956000DAC36B /* Info.plist */,
+				8FDC45341C6C956B00DAC36B /* Supporting Files */,
 			);
 			path = SilverbackHex;
 			sourceTree = "<group>";
@@ -84,6 +105,15 @@
 				8FDC452B1C6C956000DAC36B /* Info.plist */,
 			);
 			path = SilverbackHexTests;
+			sourceTree = "<group>";
+		};
+		8FDC45341C6C956B00DAC36B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8FDC451D1C6C956000DAC36B /* SilverbackHex.h */,
+				8FDC451F1C6C956000DAC36B /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FDC45401C6CA0D200DAC36B /* Cartfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +225,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FDC453B1C6C959F00DAC36B /* HexCollectionViewFlowLayout.swift in Sources */,
+				8FDC453A1C6C959F00DAC36B /* HexCollectionViewCell.swift in Sources */,
+				8FDC453C1C6C959F00DAC36B /* HexCollectionViewLayout.swift in Sources */,
+				8FDC453E1C6C963500DAC36B /* UIBezierPath.swift in Sources */,
+				8FDC45391C6C959F00DAC36B /* HexView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,26 +344,37 @@
 		8FDC452F1C6C956000DAC36B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SilverbackHex/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.silverback-it.SilverbackHex";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		8FDC45301C6C956000DAC36B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SilverbackHex/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -376,6 +423,7 @@
 				8FDC45301C6C956000DAC36B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8FDC45311C6C956000DAC36B /* Build configuration list for PBXNativeTarget "SilverbackHexTests" */ = {
 			isa = XCConfigurationList;
@@ -384,6 +432,7 @@
 				8FDC45331C6C956000DAC36B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
